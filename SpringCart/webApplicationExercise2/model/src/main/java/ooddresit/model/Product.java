@@ -21,15 +21,16 @@ import java.util.UUID;
 public class Product {
     
     int id;
-    private String name, manufacturer;
+    private String name, manufacturer, productType;
     double price;
     int qtyInStock;
     
-    public Product (int idIn, String nameIn, String manufacturerIn, double priceIn, int qtyIn) {
+    public Product (int idIn, String nameIn, String manufacturerIn, String typeIn, double priceIn, int qtyIn) {
         name = nameIn;
         manufacturer = manufacturerIn;
         price = priceIn;
         qtyInStock = qtyIn;
+        productType = typeIn;
         id = idIn;
     }
     

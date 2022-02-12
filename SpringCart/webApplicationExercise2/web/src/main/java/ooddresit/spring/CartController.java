@@ -36,7 +36,7 @@ public class CartController {
     }
    
    
-    // TODO complete the /productlist route and add other routes to manage the shopping cart. -->
+    // TODO complete the /productlist route and add other routes to manage the shopping cart.
     
     @RequestMapping(value="/productlist", method= {RequestMethod.GET, RequestMethod.POST})
     public String productList(Model model, HttpSession session) {
