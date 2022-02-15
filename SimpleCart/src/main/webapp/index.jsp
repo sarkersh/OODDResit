@@ -36,7 +36,7 @@
             <fieldset>
                 <legend>Search for products</legend>
                 <label for="productType">Product type:</label><br />
-                <input name="productType" id="productType' type="text" /><br />
+                <input name="productType" id="productType" type="text" /><br />
                 <input type="submit" value="Go!" />
             </fieldset>
         </form>

@@ -1,18 +1,45 @@
-# Shopping Cart example
+# Ehopping Application program template
 
-This exercise shows you have you can start building a shopping cart application.
-
-In a previous example, we looked at how a list of names could be held in the session object.
-This meant that each user accessing the application through a different web browser had access to a different list of names in their own session.
-
-This shopping cart example takes this further by storing a new ShoppingCart object in each user session. 
-Every user will have their own individual shopping cart which they can fill with goods in order to make a purchase.
-
-There is also a common ShoppingService which provides the list of available goods which can be added to the shopping cart.
-The ShoppingService is called a 'singleton' because there is only ever one ShoppingService used by the whole application.
-
-You have been provided with a partially complete project which you should use as your starting point [webApplicationExercise2](../shoppingcart/webApplicationExercise2 )
-
-An answer is also provided but please try and complete the exercise before you are tempted to look at the answer [webApplicationExercise2-answer](../shoppingcart/webApplicationExercise2-answer )
+This is based upon the Shopping Cart Using Spring with Bootstrap in session 6
 
 
+
+### To run using stand alone spring boot maven plugin
+
+at base of project do a build
+```
+mvn clean install
+```
+move to web module and run project
+```
+cd web
+mvn spring-boot:run
+```
+the project will be served at http://localhost:8080/index.html
+
+### To run using stand alone cargo maven plugin
+
+Alternatively you can use the cargo plugin
+```
+mvn cargo:run
+```
+then navigate to http://localhost:8080/shoppingCartApplication/
+
+
+### To run the project using  in Netbeans embedded Tomcat server
+
+If you right click on the webfacade-example1 project in netbeans and select 'run' netbeans will spin up a tomcat instance and launch your application.
+
+If you are asked for username and password just use the default admin admin.
+ 
+(You must make sure you have stopped any maven started tomcat before you do this.)
+
+You will be able to see the application at http://localhost:8080/shoppingCartApplication/
+
+Note that sometimes the browser caches the old index.html so you may need to enter the correct url to access the app
+
+http://localhost:8080/shoppingCartApplication/home
+
+not
+
+http://localhost:8080/shoppingCartApplication/home.jsp
