@@ -3,8 +3,8 @@
     <modelVersion>4.0.0</modelVersion>
     
     <parent>
-        <groupId>solent.ac.uk.ood.examples</groupId>
-        <artifactId>webApplicationExercise2</artifactId>
+        <groupId>ooddresit</groupId>
+        <artifactId>webApplicationExercise2Spring</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
@@ -53,6 +53,7 @@
             <artifactId>hamcrest-core</artifactId>
             <scope>test</scope>
         </dependency>
+        
     </dependencies>
       
 </project>
