@@ -2,3 +2,6 @@ SimpleCart/target
 SpringCart/webApplicationExercise2/web/target
 SpringCart/webApplicationExercise2/model/target
 
+/SpringCart.full/model/target/
+/SpringCart.full/dao/target/
+/SpringCart.full/web/target/
