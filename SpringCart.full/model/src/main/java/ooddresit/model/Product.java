@@ -7,6 +7,10 @@ package ooddresit.model;
 
 
 import java.util.UUID;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 /**
  *
@@ -18,25 +22,20 @@ import java.util.UUID;
 // Each product has an ID, a name, a manufacturer, a price, and a current quantity in stock.
 
 // TODO complete this class according to the brief; it's unfinished
+@Entity
 public class Product {
     
-    int id;
+    private Long id;
     private String name, manufacturer, productType;
     double price;
     int qtyInStock;
     
-    public Product (int idIn, String nameIn, String manufacturerIn, String typeIn, double priceIn, int qtyIn) {
-        name = nameIn;
-        manufacturer = manufacturerIn;
-        price = priceIn;
-        qtyInStock = qtyIn;
-        productType = typeIn;
-        id = idIn;
-    }
-    
-    public int getId() {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    public Long getId() {
         return id;
     }
+    
     
     public double getPrice() {
         return price;

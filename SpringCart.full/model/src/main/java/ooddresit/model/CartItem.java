@@ -4,6 +4,11 @@
  */
 package ooddresit.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 
 /**
  *
@@ -19,13 +24,16 @@ package ooddresit.model;
 
 // TODO complete this class according to the brief; it's unfinished
 
+@Entity
 public class CartItem {
     
     private Product product;
-    int desiredQty;
+    private int desiredQty;
+    private Long id;
     
-    public CartItem(Product productIn, int desiredQtyIn) {
-        product = productIn;
-        desiredQty = desiredQtyIn;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    public Long getId() {
+        return id;
     }
 }
