@@ -19,19 +19,17 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RequestMapping("/")
 public class MVCController {
 
-     @RequestMapping(value="/", method = {RequestMethod.GET, RequestMethod.POST})
+    @RequestMapping(value="/", method = {RequestMethod.GET, RequestMethod.POST})
     public String index(Model model) {
         return "redirect:/index.html";
         
     }
    
-   
-    // TODO complete the /productlist route and add other routes to manage the shopping cart.
+  
+    // TODO add other routes to create a working application.
     
-    @RequestMapping(value="/productlist", method= {RequestMethod.GET, RequestMethod.POST})
-    public String productList(Model model, HttpSession session) {
-        
-     
+    @RequestMapping(value="/home", method= {RequestMethod.GET, RequestMethod.POST})
+    public String home(Model model, HttpSession session) {
         return "home";
     }
 
