@@ -1,7 +1,6 @@
-# Ehopping Application program template
+# Spring Shopping Cart Application 
 
-This is based upon the Shopping Cart Using Spring with Bootstrap in session 6
-
+This is a simplified version of Craig's original application for the assignment,which was  based upon the Shopping Cart Using Spring with Bootstrap in session 6
 
 
 ### To run using stand alone spring boot maven plugin
