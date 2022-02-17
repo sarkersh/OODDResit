@@ -4,10 +4,7 @@
  */
 package ooddresit.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+
 
 /**
  *
@@ -16,19 +13,16 @@ import javax.persistence.Id;
 
 // Class representing a user.
 // TODO complete this class
-@Entity
+
 public class User {
     
     private String username, password;
-    private Long id;
+    private long id;
     public enum UserClass { CUSTOMER, ADMIN };
     
     private UserClass userClass;
-    
-  
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public Long getId() {
+   
+    public long getId() {
         return id;
     }
     
