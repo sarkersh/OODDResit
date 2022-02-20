@@ -14,9 +14,10 @@ package ooddresit.model;
 
 // Product class
 // Represents a single product sold by the shop
-// Each product has an ID, a name, a manufacturer, a price, and a current quantity in stock.
+// Each product has an ID, a name, a manufacturer, a price, and a current 
+// quantity in stock.
 
-// TODO complete this class according to the brief; it's unfinished
+// TODO you need to complete this class
 
 public class Product {
     
@@ -29,7 +30,6 @@ public class Product {
     public long getId() {
         return id;
     }
-    
     
     public double getPrice() {
         return price;

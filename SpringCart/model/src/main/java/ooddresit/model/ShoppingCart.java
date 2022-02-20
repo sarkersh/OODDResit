@@ -16,25 +16,10 @@ import java.util.List;
 
 // ShoppingCart
 // Represents a shopping cart, containing a list of CarrItems  
-// TODO complete this class according to the brief; it's unfinished
+// TODO you should complete this class
 
 
 public class ShoppingCart {
     
     private List<CartItem> items = new ArrayList<CartItem>();
-    
- 
-    
-    public void addItemToCart(CartItem item) {
-        
-    }
-    
-    public void removeItemFromCart(int itemId) {
-        
-    }
-    
-    public double getTotal() {
-        return 0.0;
-    }
-    
 }

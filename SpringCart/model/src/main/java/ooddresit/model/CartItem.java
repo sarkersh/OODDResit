@@ -11,13 +11,18 @@ package ooddresit.model;
  */
 
 // CartItem
+//
 // Represents an individual item in the shopping cart.
-// Each cart item stored the product, plus the quantity the user desires.
-// Note that this class is different to Product. Product is designed to store information about each
-// product in the shop, including its quantity in stock, but CartItem is designed to store an item WHILE IN THE CART
-// (so it needs information about how many items of the product the user would like)
+/
+// Each cart item stores the product, plus the quantity the user desires.
+// 
+// Note that this class is different to Product. Product is designed to store 
+// information about each product in the shop, including its quantity in stock,
+// but CartItem is designed to store an item WHILE IN THE CART
+// (so it needs information about how many items of the product the user would 
+// like)
 
-// TODO complete this class according to the brief; it's unfinished
+// TODO You need to complete this class 
 
 public class CartItem {
     

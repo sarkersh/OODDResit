@@ -13,9 +13,9 @@ import java.util.List;
  */
 
 // Class representing the shop as a whole
-// Contains methods for retrieving prodcuts by name, by ID, etc.
+// Contains methods for retrieving products by name, by ID, etc.
 
-// TODO complete this class according to the brief; it's unfinished
+// TODO you need to complete this class
 
 public class Shop {
     

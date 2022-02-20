@@ -12,7 +12,6 @@ package ooddresit.model;
  */
 
 // Class representing a user.
-// TODO complete this class
 
 public class User {
     

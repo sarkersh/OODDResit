@@ -6,7 +6,6 @@
 package ooddresit.model;
 
 
-import java.util.UUID;
 
 /**
  *
@@ -15,26 +14,20 @@ import java.util.UUID;
 
 // Product class
 // Represents a single product sold by the shop
-// Each product has an ID, a name, a manufacturer, a price, and a current quantity in stock.
+// Each product has an ID, a name, a manufacturer, a price, and a current 
+// quantity in stock.
 
-// TODO complete this class according to the brief; it's unfinished
+// TODO you need to complete this class
+
 public class Product {
     
-    int id;
+    private long id;
     private String name, manufacturer, productType;
     double price;
     int qtyInStock;
     
-    public Product (int idIn, String nameIn, String manufacturerIn, String typeIn, double priceIn, int qtyIn) {
-        name = nameIn;
-        manufacturer = manufacturerIn;
-        price = priceIn;
-        qtyInStock = qtyIn;
-        productType = typeIn;
-        id = idIn;
-    }
-    
-    public int getId() {
+   
+    public long getId() {
         return id;
     }
     
