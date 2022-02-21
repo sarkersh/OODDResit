@@ -13,7 +13,7 @@ package ooddresit.model;
 // CartItem
 //
 // Represents an individual item in the shopping cart.
-/
+//
 // Each cart item stores the product, plus the quantity the user desires.
 // 
 // Note that this class is different to Product. Product is designed to store 
