@@ -5,8 +5,6 @@
 --%>
 
 
-<%@page import="freemap.com528.shoppingcartapp.dto.Cart"%>
-<%@page import="freemap.com528.shoppingcartapp.dto.Hit"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.util.List" %>
 <%@page import="java.util.ArrayList" %>
